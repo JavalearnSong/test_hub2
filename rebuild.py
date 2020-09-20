@@ -6,4 +6,6 @@ class rebuild_priority(script)
       test_name = ''
  @classmethed
  def paramiter->none
-     Rloper
+     Rloper.create_raid()
+     Rloper.show_raid()
+     
